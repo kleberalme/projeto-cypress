@@ -1,0 +1,22 @@
+{
+  "name": "testekleber-get",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kleber",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/steps"
+  }
+}
